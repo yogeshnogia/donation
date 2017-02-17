@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Donation Page | Loktra</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/7cc7091fc2.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default" role="navigation">
+    	<div class="container">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    			<a class="navbar-brand" href="#">Donation Page</a>
+    		</div>
+    
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse navbar-ex1-collapse">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#">Home</a></li>
+    			</ul>
+    		</div><!-- /.navbar-collapse -->
+    	</div>
+    </nav>
+
+    <div class="container">
+
+      <div class="col-md-offset-4 col-md-4">
+      	<div class="panel panel-default">
+      		<div class="panel-body">
+      			$167 still need for this project
+      		</div>
+      	</div>
+      	<div class="tri"></div>
+      		<div>
+      	      	<div class="progress">
+      				  <div class="progress-bar" role="progressbar" aria-valuenow="993"
+      				  aria-valuemin="0" aria-valuemax="1000">
+      				    <span class="sr-only">70% Complete</span>
+      				  </div>
+      			</div>
+      		</div>
+  		<div class="col-md-12 content">
+  			<p class="first-p"><b class="days">Only 3 days</b> left to fund this project.</p>
+  				<p class="second-p">Join the <b>42</b> other donors  who have already supported this project. Every dollar helps.</p>
+  		
+  			<input type="number" class="form-control" name=""><span class="dollar">$</span>
+  			<button type="button" class="btn btn-default give">Give Now</button>
+  				<p class="why"><em><a href="#">why give $50?</a></em></p>
+  		</div>
+
+		<div class= "share col-sm-12">
+          	<button type="button" class="btn btn-default save" data-toggle="modal" data-target="        #myModal">Save for later</button>
+          			<button type="button" class="btn btn-default save" id="tell" 
+                onclick="$('#target').toggle(200);">Tell your friends
+            </button>
+        <div class="btn-group" id="target" style="display: none;">
+          <!-- Facebook Button -->
+              <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.example.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=450'); return false"><button type="button" class="btn btn-primary border" id="facebook" ><i class="fa fa-facebook" aria-hidden="true"></i></button></a>
+
+          <!-- Twitter Button -->
+              <a href="https://twitter.com/share?text=Yay, I donated!"" class="twitter-share-button" data-show-count="false"><button type="button" class="btn btn-primary border" id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+              </button></a>
+              
+            <div class="tri-2"></div>
+        </div> 
+		  </div>
+  </div> <!-- colmd-8 div -->
+
+
+	
+	  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p class="saved">Saved!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
+	
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

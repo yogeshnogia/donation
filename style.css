@@ -1,0 +1,177 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+
+p{
+	font-size: 16px;
+	color: #969696;
+	letter-spacing: 0.5px;
+}
+
+.form-control{
+	display: -webkit-inline-box;
+	width: 50%;
+	height: 58px;
+	padding: 6px 7px 6px 34px;
+    font-size: 20px;
+}
+
+.progress-bar{
+	background-color: #ed6024;
+}
+
+
+.tri{
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #424242;
+    position: relative;
+    top: -22px;
+    left: 300px;
+}
+
+.panel-default {
+    border-color: white;
+}    
+
+.panel-body{
+	background-color: #424242;
+    color: white;
+    border-radius: 6px;
+    padding: 20px 0px 20px 34px;
+    font-size: 21px;
+}
+
+.content{
+	border: 1px solid #e4e4e4;
+}
+
+.share{
+	padding: 0 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.save{
+	padding: 11px 36px;
+}
+
+#tell{
+	float: right;
+}
+
+.days{
+	color: #ed6024 !important;
+	font-weight: 700 !important;
+}
+
+.first-p{
+	margin-top: 22px;
+    margin-bottom: 22px;
+    font-weight: 300;
+}
+
+.second-p{
+	margin-bottom: 28px;
+    font-weight: 300;
+}
+
+.give{
+	float: right;
+    background: #2dbf00;
+    color: white;
+    padding: 13px 24px;
+    font-size: 20px;
+    border-bottom: 3px solid #2ab300;
+    border: none;
+}
+
+.give:hover{
+	background: #56cb32;
+	color: white;
+	box-shadow: none;
+	border-bottom: 3px solid #2dbf00;
+	border: none;
+}
+
+.give:focus{
+	background: #56cb32;
+	color: white;
+	box-shadow: none;
+	border-bottom: 3px solid #2dbf00;
+	border: none;
+}
+
+.why{
+    margin: 11px 0px 25px 6px;
+}
+
+.dollar{
+	position: relative;
+    left: -146px;
+    font-size: 20px;
+    top: 2px;
+    color: #828282;
+}
+
+.saved{
+	font-size: 20px;
+	font-weight: 600;
+	color: #424242;
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 350px;
+    margin: 250px auto;
+   }
+}
+
+#target{
+	position: relative;
+    top: -91px;
+    left: 237px;
+}
+
+.border{
+	border: none;
+}
+
+#facebook{
+	background-color: #4267b2;
+	position: relative;
+    left: 4px;
+    border-radius: 2px;
+    padding: 6px 14px;
+}
+
+#twitter{
+	background-color: #1da1f2;
+	border-radius: 2px;
+}
+
+.tri-2{
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #4267b2;
+    position: relative;
+    top: -1px;
+    left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
